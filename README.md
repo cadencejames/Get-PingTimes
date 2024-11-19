@@ -55,3 +55,8 @@ This Python script connects to Cisco devices via SSH, gathers ping times for a l
    ```bash
    pip install netmiko
    ```
+3. Run the script:
+   ```bash
+   python .\Get-PingTimes.py
+   ```
+4. Enter the SSH username and password when prompted
