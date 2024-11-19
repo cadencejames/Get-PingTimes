@@ -6,7 +6,7 @@ Workflow:
 2. Sends ping commands to the provided IPs and parses the results.
 3. Writes results to an output CSV file.
 4. Updates an aggregated CSV file (`alldata.csv`) with new results and calculates averages.
-5. Creates a `.js` file containing the last 35 days of data for frontend use.
+5. Creates a `.js` file containing the last 35 days of data for frontend use. (for instance: [This reporting tool](https://github.com/cadencejames/PingTimeStatusReport)
 
 Requirements:
 - Python 3.6+
