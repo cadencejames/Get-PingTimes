@@ -2,8 +2,6 @@
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 ![Netmiko](https://img.shields.io/badge/library-netmiko-blue)
 ![License](https://img.shields.io/github/license/cadencejames/Get-PingTimes)
-![Stars](https://img.shields.io/github/stars/cadencejames/Get-PingTimes)
-![Forks](https://img.shields.io/github/forks/cadencejames/Get-PingTImes)
 ![Last Commit](https://img.shields.io/github/last-commit/cadencejames/Get-PingTimes)
 ![Contributors](https://img.shields.io/github/contributors/cadencejames/Get-PingTImes)
 [![Frontend Tool](https://img.shields.io/badge/frontend-tool-green)](https://github.com/cadencejames/PingTimeStatusReport)
