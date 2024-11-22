@@ -180,14 +180,13 @@ try:
                     # be two sites. No more, no less.
                     site_count = 0
     for row in data:
-        if row[1] == 'M':
-            continue
         # Parses the row and pulls only the numbers and ignores any non-numbers
         numbers = [float(x) for x in row[4:] if x.replace('.', '', 1).isdigit()]
         if numbers:
             row[2] = round(sum(numbers) / len(numbers))
         else:
-            row[2] = 'x'
+            if "site" not in row[0]:
+                row[2] = 'x'
         with open(all_csv, 'w', newline='') as outfile:
             csv_writer = csv.writer(outfile)
             csv_writer.writerow(header)
@@ -213,7 +212,8 @@ try:
         if numbers:
             row[2] = round(sum(numbers) / len(numbers))
         else:
-            row[2] = 'x'
+            if "site" not in row[0]:
+                row[2] = 'x'
     js_output = ''
     js_output += "// The raw CSV data as a string\n"
     js_output += "const csvData = `\n"
