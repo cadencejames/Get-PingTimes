@@ -1,7 +1,12 @@
-ip,sitename,sitecode,tier
-192.168.1.1,SITEA,A,1
-192.168.2.1,SITEB,B,1
-192.168.3.1,SITEE,E,2
-192.168.4.1,SITEF,F,3
-192.168.5.1,SITEG,G,3
-192.168.6.1,SITEH,H,3
+ip,sitename,description,sitecode,tier
+10.0.1.1,Saffron City,Saffron City,SAFFC,1
+10.0.2.1,Celadon City,Celadon City,CELAC,1
+10.0.3.1,Pallet Town,Pallet Town,PALLT,3
+10.0.4.1,Viridian City,Viridian City,VIRIC,2
+10.0.5.1,Pewter City,Pewter City,PEWTC,2
+10.0.6.1,Cerulean City,Cerulean City,CERUC,2
+10.0.7.1,Vermilion City,Vermilion City,VERMC,2
+10.0.8.1,Lavender Town,Lavender Town,LAVET,3
+10.0.9.1,Fuchsia City,Fuchsia City,FUSHC,3
+10.0.10.1,Cinnabar Island,Cinnabar Island,CINNI,3
+10.0.11.1,Indigo Plateau,Indigo Plateau,INDIP,2
